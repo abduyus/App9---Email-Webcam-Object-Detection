@@ -34,6 +34,7 @@ while True:
 
     status_list.append(status)
     status_list = status_list[-2:]
+    print(status_list)
 
     if status_list[0] == status_list[-2:] and status_list[1] == 0:
         send_email()
